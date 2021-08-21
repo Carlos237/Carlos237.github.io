@@ -400,7 +400,11 @@ section {
   color: #1f5297;
 }
 
-/*--------------------------------------------------------------
+.facts icon-box iconbox-blue{
+	margin:30px;
+	
+}
+	/*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
@@ -450,6 +454,7 @@ section {
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
+  padding-top: 10px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
