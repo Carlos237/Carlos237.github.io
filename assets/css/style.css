@@ -400,9 +400,19 @@ section {
   color: #1f5297;
 }
 
-.facts icon-box iconbox-blue{
-	margin:30px;
+.facts .icon-box {
+	margin:50px;
+  padding:10px;
 	
+}
+
+.facts .iconoingles{
+  padding:60px;
+  bottom: -20px;
+}
+
+.facts .col-sm{
+  padding: 70px;
 }
 	/*--------------------------------------------------------------
 # Akills
