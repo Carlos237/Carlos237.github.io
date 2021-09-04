@@ -620,7 +620,7 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-details .portfolio-details-slider img {
   width: 50%;
   position: relative;
-  left: 150px;
+  left: 105px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -634,10 +634,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   opacity: 1;
   border: 1px solid #149ddd;
-  position: relative;
-  right: 100px;
 }
-
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
