@@ -938,7 +938,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
@@ -1006,6 +1006,17 @@ h1, h2, h3, h4, h5, h6 {
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
+
+.contact .buttons {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .contact .buttons:hover {
+    background-color: #e7e7e7;
+    color: black;
+  }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
