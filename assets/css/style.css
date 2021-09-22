@@ -279,16 +279,26 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 
-.facts .icon-box {
+.facts .iconbox-blue {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  box-shadow: 10px 5px rgba(110, 123, 131, 0.05);
+  position: relative;
+  left:150px;
+  height: 325px; 
+}
+
+.facts .iconbox-red {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
   position: relative;
   left:20px;
   height: 325px; 
 }
+
 
 .facts .icon-box .icon {
   margin: 0 auto;
@@ -411,6 +421,10 @@ h1, h2, h3, h4, h5, h6 {
 .facts .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+
+.icon-box .iconbox-red {
+  width: 400px;
+}
 	/*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
@@ -419,6 +433,37 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   background: none;
   border-radius: 0;
+}
+
+
+.skills .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+.skills .iconhtml{
+  padding-top: 30px;
+}
+
+.skills .iconsql{
+  padding-top: 30px;
+}
+
+.skills .iconcss{
+  padding-top: 30px;
+}
+
+.skills .iconjava{
+  padding-top: 30px;
+}
+
+.skills .iconpy{
+  padding-top: 30px;
+}
+
+
+.skills .iconc{
+  padding-top: 30px;
 }
 
 .skills .progress .skill {
