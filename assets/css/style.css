@@ -628,6 +628,16 @@ h6 {
   margin-bottom: 30px;
 }
 
+
+portfolio .section-title h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18; 
+}
+
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -636,6 +646,10 @@ h6 {
   background: #fff;
   border-radius: 50px;
   padding: 2px 15px;
+}
+
+#portfolio .section-title {
+  padding-top: 20px;
 }
 
 .portfolio #portfolio-flters li {
