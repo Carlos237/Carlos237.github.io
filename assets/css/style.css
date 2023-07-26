@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  overflow-x: hidden;
 }
 
 a {
@@ -291,6 +292,11 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.facts .section-title h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .facts .iconbox-blue {
   text-align: center;
@@ -487,13 +493,27 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .section-title h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
+}
+
+.skills .section-title h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .skills .icon-box:hover {
@@ -627,7 +647,6 @@ h6 {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-
 
 portfolio .section-title h2 {
   font-size: 26px;
@@ -1025,6 +1044,11 @@ portfolio .section-title h2 {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .section-title h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .contact {
   padding-bottom: 130px;
 }
