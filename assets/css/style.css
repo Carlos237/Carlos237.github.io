@@ -309,6 +309,8 @@ h6 {
   position: relative;
   left: 150px;
   height: 325px;
+  width: 100%;
+  padding-left: 50px;
 }
 
 .facts .iconbox-red {
@@ -319,6 +321,7 @@ h6 {
   position: relative;
   left: 20px;
   height: 325px;
+  width: 100%;
 }
 
 .facts .icon-box .icon {
