@@ -458,7 +458,8 @@ h6 {
 
 @media (max-width: 700px) {
   .facts .iconbox-blue {
-    left: -50px;
+    left: -10px;
+    position: center;
   }
 }
 
